@@ -1,0 +1,109 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--cola3);
+ }
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap'); 
+
+  
+
+  :root{
+   --colar: #FFFAFA;
+   --colar2:blue;
+   --cola3:#9A8B4F;
+  }
+
+ /* styling the h1*/
+ h1{
+  text-align: center;
+  padding: 20px;
+  font-size: 3em;
+  color: var(--colar2);
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+   
+ }
+ 
+  /* styling the paragraph*/
+  p{
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    color: var(--colar );
+    
+  }
+   /* Styling the ingredients*/
+
+   h2{
+      text-align: center;
+      color: var(--colar);
+   }
+  div.container{
+   text-align: center;   
+
+   }
+
+   ul.myyUL {
+      display: inline-block;
+      text-align: left;
+      padding: 20px;
+      color: var(--colar);
+      }
+
+      .myyUL li{
+         padding: 10px;   
+      }
+/* Styling the instruction*/
+ h3{
+   text-align: center;
+   color: var(--colar);
+}
+
+div.ins{
+text-align: center;   
+
+}
+
+ul.instrution  {
+   display: inline-block;
+   text-align: left;
+   padding: 20px;
+   color: var(--colar);
+   }
+
+   .ins li{
+      padding: 10px;   
+   }
+
+   /* Styling the image*/
+
+    div.img{
+      display: flex;
+      justify-content: center;
+      align-items: 900px;
+      padding-bottom: 30px;
+
+      
+    }
+
+    img{
+      border-radius: 50%;
+      
+    }
+ p.foot{
+   
+   color: var(--colar2);
+ }
+ 
+    
+
+    
+
+    
+ 
+
+  
+    
+ 
